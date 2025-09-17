@@ -1,6 +1,6 @@
 ## QQMM-embed
 
-QQMM-embed is a multimodal embedding model developed by TencentQQ Multimedia Research Team.
+QQMM-embed is a multimodal embedding model developed by TencentQQ Multimedia Research Team. Technical report can be found in https://arxiv.org/abs/2506.02020.
 
 ### MMEB Leaderboard
 QQMM-embed is trained on [MMEB (Massive Multimodal Embedding Benchmark)]( https://github.com/TIGER-AI-Lab/VLM2Vec) training set and evaluated on the MMEB-eval set. 
