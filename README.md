@@ -40,7 +40,7 @@ bot = EmbedBot(model, processor)
 print(">>> Inference...")
 img = Image.open('assets/dog.png').convert("RGB")
 img_feat = bot.chat(text='Represent the given image for classification.', image=[img])
-txt_feat = bot.chat(text='Represent the following answer to an image classification task: a lovely dog.')
+txt_feat = bot.chat(text='Represent the following content: a lovely dog.')
 sim = (img_feat * txt_feat).sum()
 print('Similarity score: ', sim)
 ```
