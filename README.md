@@ -33,7 +33,8 @@ config.merge_from_yaml('./configs/embed/qqmm-embed/mmeb.yaml')
 
 print(">>> Building Model...")
 processor = build_processor(config.PROCESSOR_CONFIG, inferring=True)
-model = QQMMForCausalLM.from_pretrained('youzexue/QQMM-embed-v1', torch_dtype=torch.bfloat16, device_map='cuda')
+# model = QQMMForCausalLM.from_pretrained('youzexue/QQMM-embed-v1', torch_dtype=torch.bfloat16, device_map='cuda') # QQMM-embed-v1
+model = QQMMForCausalLM.from_pretrained('youzexue/QQMM-embed-v2', torch_dtype=torch.bfloat16, device_map='cuda') # QQMM-embed-v2
 bot = EmbedBot(model, processor)
 
 print(">>> Inference...")
