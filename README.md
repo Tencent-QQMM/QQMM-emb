@@ -50,4 +50,4 @@ print('Similarity score: ', sim)
 
 - [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) Powerful large multimodal models developed by Alibaba.
 
-- [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) Excellent language models developed by Alibaba.
+- [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) Excellent language models developed by Alibaba..
